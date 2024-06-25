@@ -1,12 +1,12 @@
 {
-	"name": "c42-stonescript",
-	"displayName": "Stonescript",
-	"description": "Syntax highlighting for Stonescript",
+	"name": "stonescript-ssr",
+	"displayName": "StoneScript",
+	"description": "Syntax highlighting for Stonescript, Personal use only.",
 	"version": "1.0.14",
-	"publisher": "Catalyst-42",
+	"publisher": "Kolyn Lin",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Catalyst-42/stonescript"
+		"url": "https://github.com/Kolyn090/stonescript"
 	},
 	"engines": {
 		"vscode": "^1.50.0"
