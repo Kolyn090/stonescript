@@ -1,0 +1,26 @@
+// Equips the Shovel for Rocky Plateau.
+// In Caves of Fear it equips loadout 1,
+// except against the boss, where the
+// Grappling Hook and a 7 star War Hammer
+// are used instead.
+// For Haunted Halls it uses two Wands,
+// specifying Poison for left hand and
+// Vigor for the right hand. However,
+// if the difficulty is over 5 stars it
+// uses an enchanted +13 Vigor Staff.
+// Potion activates if hitpoints fall
+// below 10
+?loc=rocky
+ equip shovel
+?loc=cave
+ loadout 1
+ ?foe=bolesh
+  equip grap
+  equip hammer *7 D
+?loc=halls
+ equipL poison wand
+ equipR vigor wand
+ ?loc.stars > 5
+  equip vigor staff +13
+?hp < 10
+ activate potion

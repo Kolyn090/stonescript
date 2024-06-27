@@ -1,9 +1,9 @@
 {
 	"name": "stonescript-ssr",
-	"displayName": "StoneScript",
+	"displayName": "SSRlang for StoneStoryRPG",
 	"description": "Syntax highlighting for Stonescript, Personal use only.",
 	"version": "1.0.14",
-	"publisher": "Kolyn Lin",
+	"publisher": "Catalyst-42",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Kolyn090/stonescript"
